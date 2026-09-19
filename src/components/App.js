@@ -8,7 +8,7 @@ const App = () => {
       const count = useSelector((state) => state.counter.value);
   return (
     <div>
-        <p>Count  {count}</p>
+          <h1>{count}</h1>
         <button onClick={()=>dispatch(increment())}>Increment</button>
         <button onClick={()=>dispatch(decrement())}>Decrement</button>
     </div>
